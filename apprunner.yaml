@@ -10,6 +10,6 @@ run:
     port: 8080  
   secrets:
     - name: TestSecret1
-      value-from: "TestSecret1_Value"
+      value-from: "arn:aws:secretsmanager:eu-central-1:117304394178:secret:TestSecret1-qqmAwF"
     - name: TestParameter1
-      value-from: "TestParameter1_Value"
+      value-from: "arn:aws:ssm:eu-central-1:117304394178:parameter/TestParameter1"
